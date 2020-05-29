@@ -1,0 +1,58 @@
+/** button style **/
+.button{
+    -fx-padding: 5 12 12 12;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #071c46 0%, #071c46 100%),
+            #071c46,
+            #071c46,
+            radial-gradient(center 50% 50%, radius 100%, #072c68, #072c68);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+}
+
+/** button style on hover **/
+.button:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #071c46 0%, #071c46 100%),
+            #071c46,
+            #071c46,
+            radial-gradient(center 50% 50%, radius 100%, #073182, #073182);
+}
+
+/** button style on press **/
+.button:pressed
+{
+    -fx-padding: 7 12 10 12;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+/** tap button style **/
+#tap{
+    -fx-padding: 5 12 12 12;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #2a8124 0%, #2a8124 100%),
+            #2a8124,
+            #2a8124,
+            radial-gradient(center 50% 50%, radius 100%, #32a52c, #32a52c);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+
+}
+
+/** tap button style on hover **/
+#tap:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #2a8124 0%, #2a8124 100%),
+            #2a8124,
+            #2a8124,
+            radial-gradient(center 50% 50%, radius 100%, #36c430, #36c430);
+}
+
+/** tap button style on press **/
+#tap:pressed
+{
+    -fx-padding: 7 12 10 12;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}

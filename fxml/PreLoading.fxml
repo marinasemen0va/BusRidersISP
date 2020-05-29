@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PreLoadingController">
+   <children>
+      <ImageView fitHeight="376.0" fitWidth="323.0" layoutX="-10.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/img/bg preloader.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="282.0" fitWidth="423.0" layoutX="-68.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/img/bus.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="progress" layoutX="83.0" layoutY="234.0" style="-fx-font-family: &quot;Spaceport&quot;; -fx-font-size: 16;" text="Loading" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Spaceport" size="18.0" />
+         </font></Label>
+      <Label layoutX="181.0" layoutY="281.0" style="-fx-font-family: &quot;Spaceport&quot;; -fx-font-size: 7;" text="© BlueStar Games 2019" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Spaceport" size="9.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="82.0" layoutY="191.0" prefHeight="3.0" prefWidth="136.0" progress="0.0">
+         <effect>
+            <DropShadow />
+         </effect></ProgressBar>
+   </children>
+</AnchorPane>

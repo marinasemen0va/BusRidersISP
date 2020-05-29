@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <ImageView fitHeight="499.0" fitWidth="749.0" layoutX="-15.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-z: 20;">
+            <image>
+                <Image url="@../resources/img/bg.jpg" />
+            </image></ImageView>
+        <Button layoutX="317.0" layoutY="420.0" mnemonicParsing="false" onAction="#goToStart" prefHeight="54.0" prefWidth="81.0" style="-fx-font-family: &quot;Spaceport&quot;; -fx-font-size: 16;" stylesheets="@buttonstylesheet.css" text="Back" textFill="WHITE">
+            <effect>
+                <DropShadow />
+            </effect>
+            <font>
+                <Font name="Spaceport" size="20.0" />
+            </font></Button>
+      <Label layoutX="130.0" layoutY="14.0" style="-fx-font-family: &quot;Shaka Pow&quot;; -fx-font-size: 60; -fx-text-fill: linear-gradient(#fff992 30% , #c3001d 80%);" text="Bus Riders! Rules" textFill="WHITE">
+         <font>
+            <Font name="Spaceport" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="69.0" layoutY="100.0" maxWidth="600.0" text="This game is a simulator on how to ride a public bus. Click on the right things to make them work! Each level of the game has 3 phases: getting on the bus, picking a seat, and getting off. Each level works slightly differently. To finish the game, there will be an unscored safety quiz. See how much you learned!" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Spaceport" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="208.0" layoutY="381.0" text="Good luck and have fun!" textFill="WHITE">
+         <font>
+            <Font name="Spaceport" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="69.0" layoutY="177.0" maxWidth="600.0" text="In phase one, drag the Presto to tap on the machine, and use the ask option to talk to the bus driver. " textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Spaceport" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="69.0" layoutY="221.0" maxWidth="600.0" text="In phase two, pick a seat before the timer runs out. Make sure to pick the best available seat - you will gain extra points if you sit instead of standing and don’t sit beside someone unfriendly." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Spaceport" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="69.0" layoutY="280.0" maxWidth="600.0" text="In phase three, press the stop button at the right time and make sure you don’t get off too early or too late!" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Spaceport" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="69.0" layoutY="325.0" maxWidth="600.0" text="The levels increase in difficulty as you go on: level one features a guide to help, level two is normal, and level three is hard. You need to unlock each level in turn and end it with more than 50 points to pass." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Spaceport" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+    </children>
+</AnchorPane>
